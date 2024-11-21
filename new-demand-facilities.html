@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_843e8001b109668ca7efb20a6d46f5b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_843e8001b109668ca7efb20a6d46f5b9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_843e8001b109668ca7efb20a6d46f5b9 = L.map(
+                "map_843e8001b109668ca7efb20a6d46f5b9",
+                {
+                    center: [27.5, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_60f1588d01615b62329a3e97ded2c5e5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_60f1588d01615b62329a3e97ded2c5e5.addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var marker_d4092f2086b0d395146aa99dcd051dff = L.marker(
+                [24.878082, 75.547293],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_4724293188e3f6d10055381e177c60fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4092f2086b0d395146aa99dcd051dff.setIcon(icon_4724293188e3f6d10055381e177c60fe);
+        
+    
+        var popup_491f9cc873b1803adc5f957dc5ca7952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d268311f304ccf07fc77028874881a69 = $(`<div id="html_d268311f304ccf07fc77028874881a69" style="width: 100.0%; height: 100.0%;">Cluster 0: Hempura, Chenpua, Rawatbhata Tehsil, Chittorgarh, Rajasthan, India</div>`)[0];
+                popup_491f9cc873b1803adc5f957dc5ca7952.setContent(html_d268311f304ccf07fc77028874881a69);
+            
+        
+
+        marker_d4092f2086b0d395146aa99dcd051dff.bindPopup(popup_491f9cc873b1803adc5f957dc5ca7952)
+        ;
+
+        
+    
+    
+            var marker_ae3e6c83ed2c606440c3ad843bf3744d = L.marker(
+                [26.12898, 81.181775],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_22b01cfee661c29f60055c7df75d7afc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae3e6c83ed2c606440c3ad843bf3744d.setIcon(icon_22b01cfee661c29f60055c7df75d7afc);
+        
+    
+        var popup_c1a2a7cf95bc5400eb518fa8dc95995a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b381a1367666100035bcae3cf65cafc = $(`<div id="html_6b381a1367666100035bcae3cf65cafc" style="width: 100.0%; height: 100.0%;">Cluster 1: Raebareli, Uttar Pradesh, 229001, India</div>`)[0];
+                popup_c1a2a7cf95bc5400eb518fa8dc95995a.setContent(html_6b381a1367666100035bcae3cf65cafc);
+            
+        
+
+        marker_ae3e6c83ed2c606440c3ad843bf3744d.bindPopup(popup_c1a2a7cf95bc5400eb518fa8dc95995a)
+        ;
+
+        
+    
+    
+            var marker_12189588fad7372b0e47d764d00c0285 = L.marker(
+                [29.005805, 77.162066],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_e228d1ba930fed271e7ec32bc603e168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12189588fad7372b0e47d764d00c0285.setIcon(icon_e228d1ba930fed271e7ec32bc603e168);
+        
+    
+        var popup_5687347fbd4f4e9cdcd6a713d0236590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66c0932d3eb261fa88850030502dc359 = $(`<div id="html_66c0932d3eb261fa88850030502dc359" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 0: Sonipat, Haryana, India</div>`)[0];
+                popup_5687347fbd4f4e9cdcd6a713d0236590.setContent(html_66c0932d3eb261fa88850030502dc359);
+            
+        
+
+        marker_12189588fad7372b0e47d764d00c0285.bindPopup(popup_5687347fbd4f4e9cdcd6a713d0236590)
+        ;
+
+        
+    
+    
+            var marker_a75766825a0e7d677adb03427104f2b4 = L.marker(
+                [30.654873, 75.541589],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_2d7e718d3fb234ca7b2a541a82c3ee80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a75766825a0e7d677adb03427104f2b4.setIcon(icon_2d7e718d3fb234ca7b2a541a82c3ee80);
+        
+    
+        var popup_25bda71d2d3418cef4ea9093d177cd47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b558b748cb96c617dca02775df8a5267 = $(`<div id="html_b558b748cb96c617dca02775df8a5267" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 5: Bassian, Raikot Tahsil, Ludhiana, Punjab, 142032, India</div>`)[0];
+                popup_25bda71d2d3418cef4ea9093d177cd47.setContent(html_b558b748cb96c617dca02775df8a5267);
+            
+        
+
+        marker_a75766825a0e7d677adb03427104f2b4.bindPopup(popup_25bda71d2d3418cef4ea9093d177cd47)
+        ;
+
+        
+    
+    
+            var marker_263ca58819435b9f0197118cdaff63bb = L.marker(
+                [23.011932, 76.687687],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_71077647c6b8a598fb41871191d23e50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_263ca58819435b9f0197118cdaff63bb.setIcon(icon_71077647c6b8a598fb41871191d23e50);
+        
+    
+        var popup_cbe99abf4c549e63082c2079c1e0be3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb7b4a2a88f6bdc1264f90a3666059ec = $(`<div id="html_eb7b4a2a88f6bdc1264f90a3666059ec" style="width: 100.0%; height: 100.0%;">Cluster 0 Sub-cluster 0: Rajakpura, Chancharsi, Ashta Tahsil, Sehore, Madhya Pradesh, India</div>`)[0];
+                popup_cbe99abf4c549e63082c2079c1e0be3a.setContent(html_eb7b4a2a88f6bdc1264f90a3666059ec);
+            
+        
+
+        marker_263ca58819435b9f0197118cdaff63bb.bindPopup(popup_cbe99abf4c549e63082c2079c1e0be3a)
+        ;
+
+        
+    
+    
+            var marker_4236c56929d3505e143284c64b601f4c = L.marker(
+                [25.106768, 73.989254],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_a02908c815e5720dc452d887ec507807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4236c56929d3505e143284c64b601f4c.setIcon(icon_a02908c815e5720dc452d887ec507807);
+        
+    
+        var popup_aa35df585b82143cb447b5d324db3c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_597ba8f6de60094315dfa687f5d50fe3 = $(`<div id="html_597ba8f6de60094315dfa687f5d50fe3" style="width: 100.0%; height: 100.0%;">Cluster 0 Sub-cluster 1: NH758, Bhawa, Rajsamand Tehsil, Rajsamand, Rajasthan, India</div>`)[0];
+                popup_aa35df585b82143cb447b5d324db3c0f.setContent(html_597ba8f6de60094315dfa687f5d50fe3);
+            
+        
+
+        marker_4236c56929d3505e143284c64b601f4c.bindPopup(popup_aa35df585b82143cb447b5d324db3c0f)
+        ;
+
+        
+    
+    
+            var marker_07bc0172556df3166f7d2043778ff3fe = L.marker(
+                [25.711795, 77.09839],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_89df01e3170f7b09516e7a38b9e80167 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_07bc0172556df3166f7d2043778ff3fe.setIcon(icon_89df01e3170f7b09516e7a38b9e80167);
+        
+    
+        var popup_cf9e198ef1b67abd643ec839dead5a55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b40bacc8adea54bb3b07979f42f2d29 = $(`<div id="html_0b40bacc8adea54bb3b07979f42f2d29" style="width: 100.0%; height: 100.0%;">Cluster 0 Sub-cluster 2: Karahal Tahsil, Sheopur, Madhya Pradesh, 476335, India</div>`)[0];
+                popup_cf9e198ef1b67abd643ec839dead5a55.setContent(html_0b40bacc8adea54bb3b07979f42f2d29);
+            
+        
+
+        marker_07bc0172556df3166f7d2043778ff3fe.bindPopup(popup_cf9e198ef1b67abd643ec839dead5a55)
+        ;
+
+        
+    
+    
+            var marker_f9b07372097f3af62f5b9babda696850 = L.marker(
+                [27.57955, 79.835985],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_119cd29005b7c1698bf0a48c46409e03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f9b07372097f3af62f5b9babda696850.setIcon(icon_119cd29005b7c1698bf0a48c46409e03);
+        
+    
+        var popup_cb5358930a5c2f4fd9f923ac128a2320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81062f7baaf742aa4dab0dac3181108b = $(`<div id="html_81062f7baaf742aa4dab0dac3181108b" style="width: 100.0%; height: 100.0%;">Cluster 1 Sub-cluster 0: Sawayajpur, Hardoi, Uttar Pradesh, India</div>`)[0];
+                popup_cb5358930a5c2f4fd9f923ac128a2320.setContent(html_81062f7baaf742aa4dab0dac3181108b);
+            
+        
+
+        marker_f9b07372097f3af62f5b9babda696850.bindPopup(popup_cb5358930a5c2f4fd9f923ac128a2320)
+        ;
+
+        
+    
+    
+            var marker_a440af8e20607dc40569e6ff8c6330c7 = L.marker(
+                [26.230257, 82.570122],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_4b89387c6fcfdb2ade8693bd88a9062e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a440af8e20607dc40569e6ff8c6330c7.setIcon(icon_4b89387c6fcfdb2ade8693bd88a9062e);
+        
+    
+        var popup_99b27171bb6411dcebc853d2ae3b10f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f34a3ac6efdac7394c05d521ee17557d = $(`<div id="html_f34a3ac6efdac7394c05d521ee17557d" style="width: 100.0%; height: 100.0%;">Cluster 1 Sub-cluster 1: Kadipur, Sultanpur, Uttar Pradesh, India</div>`)[0];
+                popup_99b27171bb6411dcebc853d2ae3b10f6.setContent(html_f34a3ac6efdac7394c05d521ee17557d);
+            
+        
+
+        marker_a440af8e20607dc40569e6ff8c6330c7.bindPopup(popup_99b27171bb6411dcebc853d2ae3b10f6)
+        ;
+
+        
+    
+    
+            var marker_cf40ffc6bdc7481e3b80f37dc5dae322 = L.marker(
+                [23.66148, 80.184105],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_4832ea81cfe1553b8b7be40eccbf9410 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cf40ffc6bdc7481e3b80f37dc5dae322.setIcon(icon_4832ea81cfe1553b8b7be40eccbf9410);
+        
+    
+        var popup_3897db601a2e2856956ecdabf4df1f93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8768f3a4936375c181b5a506804939f = $(`<div id="html_e8768f3a4936375c181b5a506804939f" style="width: 100.0%; height: 100.0%;">Cluster 1 Sub-cluster 2: Koriya, Sleemanabad Tahsil, Katni, Madhya Pradesh, India</div>`)[0];
+                popup_3897db601a2e2856956ecdabf4df1f93.setContent(html_e8768f3a4936375c181b5a506804939f);
+            
+        
+
+        marker_cf40ffc6bdc7481e3b80f37dc5dae322.bindPopup(popup_3897db601a2e2856956ecdabf4df1f93)
+        ;
+
+        
+    
+    
+            var marker_dd44ad4c1e6fcdf4cbd5ee0ac7d7e142 = L.marker(
+                [30.050475, 76.518521],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_f9bf4dbcd2cc65ce241ca92513034a5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd44ad4c1e6fcdf4cbd5ee0ac7d7e142.setIcon(icon_f9bf4dbcd2cc65ce241ca92513034a5d);
+        
+    
+        var popup_c4953a8a14f635b7b807191c4144eef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73818313674520110d036a259a2bbd7c = $(`<div id="html_73818313674520110d036a259a2bbd7c" style="width: 100.0%; height: 100.0%;">Cluster 2: Pehowa, Kurukshetra, Haryana, India</div>`)[0];
+                popup_c4953a8a14f635b7b807191c4144eef7.setContent(html_73818313674520110d036a259a2bbd7c);
+            
+        
+
+        marker_dd44ad4c1e6fcdf4cbd5ee0ac7d7e142.bindPopup(popup_c4953a8a14f635b7b807191c4144eef7)
+        ;
+
+        
+    
+    
+            var marker_a5c8dd30c9f6b422961daad3d9b1e52a = L.marker(
+                [32.916534, 75.132607],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_66d82f1c4b56f8c7646d3034f491977b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a5c8dd30c9f6b422961daad3d9b1e52a.setIcon(icon_66d82f1c4b56f8c7646d3034f491977b);
+        
+    
+        var popup_d417da5cc97de53a79143745efc422cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c8475f2dc3195985a5ea35bd370b1b1 = $(`<div id="html_9c8475f2dc3195985a5ea35bd370b1b1" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 1: Udhampur, Jammu and Kashmir, India</div>`)[0];
+                popup_d417da5cc97de53a79143745efc422cf.setContent(html_9c8475f2dc3195985a5ea35bd370b1b1);
+            
+        
+
+        marker_a5c8dd30c9f6b422961daad3d9b1e52a.bindPopup(popup_d417da5cc97de53a79143745efc422cf)
+        ;
+
+        
+    
+    
+            var marker_a69c8785546f417ab6f31d34e43c842c = L.marker(
+                [28.652085, 77.688606],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_2a474f4a77bac536a3dd28bb70c2438b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a69c8785546f417ab6f31d34e43c842c.setIcon(icon_2a474f4a77bac536a3dd28bb70c2438b);
+        
+    
+        var popup_550932c161818dee4eeebfbcc946a11e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_054002119ed3278ea3dc77a5f270ca9b = $(`<div id="html_054002119ed3278ea3dc77a5f270ca9b" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 2: Dhaulana, Hapur, Uttar Pradesh, India</div>`)[0];
+                popup_550932c161818dee4eeebfbcc946a11e.setContent(html_054002119ed3278ea3dc77a5f270ca9b);
+            
+        
+
+        marker_a69c8785546f417ab6f31d34e43c842c.bindPopup(popup_550932c161818dee4eeebfbcc946a11e)
+        ;
+
+        
+    
+    
+            var marker_735a4ab6ef235e84bcea2ca6d83b687c = L.marker(
+                [31.452077, 77.091093],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_54f304ea9c8c54d116788404ae4525d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_735a4ab6ef235e84bcea2ca6d83b687c.setIcon(icon_54f304ea9c8c54d116788404ae4525d7);
+        
+    
+        var popup_36f1c373b21e361e9eec5ef8c82de072 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15a8d2d3713e9f78610bc11e50565973 = $(`<div id="html_15a8d2d3713e9f78610bc11e50565973" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 3: Sanot, Nihri, Mandi, Himachal Pradesh, 175031, India</div>`)[0];
+                popup_36f1c373b21e361e9eec5ef8c82de072.setContent(html_15a8d2d3713e9f78610bc11e50565973);
+            
+        
+
+        marker_735a4ab6ef235e84bcea2ca6d83b687c.bindPopup(popup_36f1c373b21e361e9eec5ef8c82de072)
+        ;
+
+        
+    
+    
+            var marker_e7067989aab703450268e83fd5c3773e = L.marker(
+                [30.368159, 77.865313],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_e684db84725d5caa75fc6b82fc81da11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e7067989aab703450268e83fd5c3773e.setIcon(icon_e684db84725d5caa75fc6b82fc81da11);
+        
+    
+        var popup_3dec92abe2a7ecd1eb34a394f4ca8f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_680d5e141bbda043a60766f2f3f22ca6 = $(`<div id="html_680d5e141bbda043a60766f2f3f22ca6" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 4: Selakui, Dehradun, Uttarakhand, India</div>`)[0];
+                popup_3dec92abe2a7ecd1eb34a394f4ca8f24.setContent(html_680d5e141bbda043a60766f2f3f22ca6);
+            
+        
+
+        marker_e7067989aab703450268e83fd5c3773e.bindPopup(popup_3dec92abe2a7ecd1eb34a394f4ca8f24)
+        ;
+
+        
+    
+    
+            var marker_a9eb4c9cf963a306f5642358fd3f04d5 = L.marker(
+                [31.736452, 75.383699],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_274cab1120f123f53759c58f816ac622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a9eb4c9cf963a306f5642358fd3f04d5.setIcon(icon_274cab1120f123f53759c58f816ac622);
+        
+    
+        var popup_4906b463883863ee3b49bc68f533dbaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba6795144a4652cd4f5ae6be7eedb73f = $(`<div id="html_ba6795144a4652cd4f5ae6be7eedb73f" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 6: Udhanwal, Batala Tahsil, Gurdaspur, Punjab, 143505, India</div>`)[0];
+                popup_4906b463883863ee3b49bc68f533dbaa.setContent(html_ba6795144a4652cd4f5ae6be7eedb73f);
+            
+        
+
+        marker_a9eb4c9cf963a306f5642358fd3f04d5.bindPopup(popup_4906b463883863ee3b49bc68f533dbaa)
+        ;
+
+        
+    
+    
+            var marker_7f56313285410b97761fdab479c421e3 = L.marker(
+                [29.062284, 74.522165],
+                {}
+            ).addTo(map_843e8001b109668ca7efb20a6d46f5b9);
+        
+    
+            var icon_3fb29a091168629d5259311161f44240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7f56313285410b97761fdab479c421e3.setIcon(icon_3fb29a091168629d5259311161f44240);
+        
+    
+        var popup_5cfbd482a2f95f361cbaee043d54a476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_324c141850d841af93c6257bcf2e3ccf = $(`<div id="html_324c141850d841af93c6257bcf2e3ccf" style="width: 100.0%; height: 100.0%;">Cluster 2 Sub-cluster 7: Chelasri, Rawatsar Tehsil, Hanumangarh, Rajasthan, India</div>`)[0];
+                popup_5cfbd482a2f95f361cbaee043d54a476.setContent(html_324c141850d841af93c6257bcf2e3ccf);
+            
+        
+
+        marker_7f56313285410b97761fdab479c421e3.bindPopup(popup_5cfbd482a2f95f361cbaee043d54a476)
+        ;
+
+        
+    
+</script>
+</html>
